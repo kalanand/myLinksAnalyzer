@@ -1,0 +1,80 @@
+__        ___           _     _       _ _     ___ 
+\ \      / / |__   __ _| |_  (_)___  (_) |_  |__ \
+ \ \ /\ / /| '_ \ / _` | __| | / __| | | __|   / /
+  \ V  V / | | | | (_| | |_  | \__ \ | | |_   |_| 
+   \_/\_/  |_| |_|\__,_|\__| |_|___/ |_|\__|  (_) 
+                                                  
+
+"myLinksAnalyzer" is a lightweight package written in Python to 
+query the LinkedIn database, extract useful information about 
+your contacts, and perform some analytics over this data. 
+The code also plots charts of your contacts by geographical 
+location (country, city, continent etc.), profession, popular 
+headline words, ... etc. The query result is stored locally in 
+a text file for further analysis.  
+
+
+ _____           _                     _                 _ 
+|_   _|__     __| | _____      ___ __ | | ___   __ _  __| |
+  | |/ _ \   / _` |/ _ \ \ /\ / / '_ \| |/ _ \ / _` |/ _` |
+  | | (_) | | (_| | (_) \ V  V /| | | | | (_) | (_| | (_| |
+  |_|\___/   \__,_|\___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|
+                                                           
+
+git clone git://github.com/kalanand/myLinksAnalyzer
+
+
+ _   _                 _                           
+| | | | _____      __ | |_ ___    _ __ _   _ _ __  
+| |_| |/ _ \ \ /\ / / | __/ _ \  | '__| | | | '_ \ 
+|  _  | (_) \ V  V /  | || (_) | | |  | |_| | | | |
+|_| |_|\___/ \_/\_/    \__\___/  |_|   \__,_|_| |_|
+                                                   
+
+The main executable is 'analyze.py', which can be run 
+on command-line in a terminal window using the command 
+
+python analyze.py
+
+It will produce a bunch of plots showing results from the 
+analysis of your contacts. You can modify this file 
+according to your needs to expand/finetune your analysis. 
+You can either run a brand-new query (which is the default) 
+or analyze data stored in a text file from a previous query. 
+
+
+ _____                           _              _       _       
+| ____|_  ____ _ _ __ ___  _ __ | | ___   _ __ | | ___ | |_ ___ 
+|  _| \ \/ / _` | '_ ` _ \| '_ \| |/ _ \ | '_ \| |/ _ \| __/ __|
+| |___ >  < (_| | | | | | | |_) | |  __/ | |_) | | (_) | |_\__ \
+|_____/_/\_\__,_|_| |_| |_| .__/|_|\___| | .__/|_|\___/ \__|___/
+                          |_|            |_|                    
+
+Please see: <a href="http://kmishra.net/iCitePlots/myLinksAnalyzer">http://kmishra.net/iCitePlots/myLinksAnalyzer</a>
+
+
+ _____         _           _           _       _      _        _ _     
+|_   _|__  ___| |__  _ __ (_) ___ __ _| |   __| | ___| |_ __ _(_) |___ 
+  | |/ _ \/ __| '_ \| '_ \| |/ __/ _` | |  / _` |/ _ \ __/ _` | | / __|
+  | |  __/ (__| | | | | | | | (_| (_| | | | (_| |  __/ || (_| | | \__ \
+  |_|\___|\___|_| |_|_| |_|_|\___\__,_|_|  \__,_|\___|\__\__,_|_|_|___/
+                                                                       
+                                    
+Author : Kalanand Mishra
+Home Page : https://github.com/kalanand/myLinksAnalyzer
+Operating System : OS Independent
+Programming Language : Python 
+Intended Audience : Anyone with LinkedIn profile
+
+
+ _     _                         
+| |   (_) ___ ___ _ __  ___  ___ 
+| |   | |/ __/ _ \ '_ \/ __|/ _ \
+| |___| | (_|  __/ | | \__ \  __/
+|_____|_|\___\___|_| |_|___/\___|
+                                 
+myLinksAnalyzer is a free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the
+License or any later version: <http://www.gnu.org/licenses/>.
+This software is distributed WITHOUT ANY WARRANTY. 
